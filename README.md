@@ -1,2 +1,3 @@
 # Calculator
-small calcultor for function use
+small calcultor for function use. owner- Aditya
+

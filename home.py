@@ -30,8 +30,8 @@ if st.button("Submit"):
         prediction = model.predict(img)
         predict = int(np.argmax(prediction))
         st.subheader(f'Prediction: {predict}')
-        print("ALL RIGHTS ARE RESERVED BY ADITYA")
-        print("MADE BY ADITYA SHARMA")
+        
+       
     else:
         st.subheader(f'Prediction: Null')
 st.title("ALL RIGHTS ARE RESERVED BY ADITYA")

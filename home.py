@@ -18,7 +18,7 @@ with open("cnn_model.pkl", "rb") as file:
         model = pkl.load(file)
 
 st.title("Digit Recogonizer")
-st.title("Made by aditya")
+st.title("Made by Aditya")
 
 st.subheader("Upload image")
 img = st.file_uploader("1", label_visibility="collapsed")
@@ -34,5 +34,5 @@ if st.button("Submit"):
        
     else:
         st.subheader(f'Prediction: Null')
-st.title("ALL RIGHTS ARE RESERVED BY ADITYA")
+st.title("All Rights Are Reserved")
 # python -m streamlit run home.py

@@ -6,9 +6,6 @@ import pickle as pkl
 
 
 
-
-
-
 def preprocess_image(image_path):
     
     img = Image.open(image_path).convert('L')  

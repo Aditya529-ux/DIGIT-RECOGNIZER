@@ -3,6 +3,15 @@ import numpy as np
 from PIL import Image
 import pickle as pkl
 
+def load_css(file_name):
+    with open(file_name, "r") as f:
+        css = f.read()
+        st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+
+# Load CSS
+load_css("style.css")
+
+
 
 def preprocess_image(image_path):
     
